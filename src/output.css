@@ -581,12 +581,21 @@ video {
   margin-bottom: 2rem;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .ml-2 {
   margin-left: 0.5rem;
 }
 
 .mt-2 {
   margin-top: 0.5rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
 }
 
 .flex {
@@ -601,20 +610,44 @@ video {
   display: none;
 }
 
+.h-1 {
+  height: 0.25rem;
+}
+
 .h-16 {
   height: 4rem;
+}
+
+.h-4 {
+  height: 1rem;
 }
 
 .h-48 {
   height: 12rem;
 }
 
+.h-56 {
+  height: 14rem;
+}
+
 .h-6 {
   height: 1.5rem;
 }
 
+.h-auto {
+  height: auto;
+}
+
 .h-screen {
   height: 100vh;
+}
+
+.h-0 {
+  height: 0px;
+}
+
+.h-0\.5 {
+  height: 0.125rem;
 }
 
 .w-28 {
@@ -625,8 +658,20 @@ video {
   width: 8rem;
 }
 
+.w-4 {
+  width: 1rem;
+}
+
+.w-4\/12 {
+  width: 33.333333%;
+}
+
 .w-48 {
   width: 12rem;
+}
+
+.w-56 {
+  width: 14rem;
 }
 
 .w-6 {
@@ -651,6 +696,26 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-5 {
+  width: 1.25rem;
+}
+
+.w-52 {
+  width: 13rem;
+}
+
+.w-1 {
+  width: 0.25rem;
+}
+
+.w-12 {
+  width: 3rem;
+}
+
+.w-16 {
+  width: 4rem;
 }
 
 .transform {
@@ -693,6 +758,10 @@ video {
   gap: 2rem;
 }
 
+.gap-1 {
+  gap: 0.25rem;
+}
+
 .scroll-smooth {
   scroll-behavior: smooth;
 }
@@ -721,14 +790,17 @@ video {
   border-width: 2px;
 }
 
-.border-BerkeleyBlue {
-  --tw-border-opacity: 1;
-  border-color: rgb(29 53 87 / var(--tw-border-opacity));
+.border {
+  border-width: 1px;
 }
 
-.bg-BerkeleyBlue {
-  --tw-bg-opacity: 1;
-  background-color: rgb(29 53 87 / var(--tw-bg-opacity));
+.border-0 {
+  border-width: 0px;
+}
+
+.border-HoneyDew {
+  --tw-border-opacity: 1;
+  border-color: rgb(241 250 238 / var(--tw-border-opacity));
 }
 
 .bg-Cyan {
@@ -736,14 +808,9 @@ video {
   background-color: rgb(20 255 236 / var(--tw-bg-opacity));
 }
 
-.bg-Midnight {
+.bg-HoneyDew {
   --tw-bg-opacity: 1;
-  background-color: rgb(33 33 33 / var(--tw-bg-opacity));
-}
-
-.bg-PhotoBlue {
-  --tw-bg-opacity: 1;
-  background-color: rgb(168 218 220 / var(--tw-bg-opacity));
+  background-color: rgb(241 250 238 / var(--tw-bg-opacity));
 }
 
 .bg-Lmidnight {
@@ -751,12 +818,9 @@ video {
   background-color: rgb(50 50 50 / var(--tw-bg-opacity));
 }
 
-.bg-opacity-50 {
-  --tw-bg-opacity: 0.5;
-}
-
-.bg-opacity-5 {
-  --tw-bg-opacity: 0.05;
+.bg-Midnight {
+  --tw-bg-opacity: 1;
+  background-color: rgb(33 33 33 / var(--tw-bg-opacity));
 }
 
 .px-16 {
@@ -779,14 +843,14 @@ video {
   padding-right: 1rem;
 }
 
-.py-16 {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
-
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
 .py-3 {
@@ -804,12 +868,41 @@ video {
   padding-bottom: 2rem;
 }
 
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.py-14 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.pb-8 {
+  padding-bottom: 2rem;
+}
+
 .text-center {
   text-align: center;
 }
 
 .font-sans {
   font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-3xl {
@@ -862,11 +955,6 @@ video {
   text-transform: uppercase;
 }
 
-.text-BerkeleyBlue {
-  --tw-text-opacity: 1;
-  color: rgb(29 53 87 / var(--tw-text-opacity));
-}
-
 .text-Cyan {
   --tw-text-opacity: 1;
   color: rgb(20 255 236 / var(--tw-text-opacity));
@@ -880,6 +968,11 @@ video {
 .text-Midnight {
   --tw-text-opacity: 1;
   color: rgb(33 33 33 / var(--tw-text-opacity));
+}
+
+.text-Lmidnight {
+  --tw-text-opacity: 1;
+  color: rgb(50 50 50 / var(--tw-text-opacity));
 }
 
 .shadow-2xl {
@@ -898,11 +991,6 @@ video {
   --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.hover\:text-BerkeleyBlue:hover {
-  --tw-text-opacity: 1;
-  color: rgb(29 53 87 / var(--tw-text-opacity));
 }
 
 .hover\:text-Cyan:hover {
